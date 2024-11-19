@@ -1,0 +1,8 @@
+@import "../src/globalFonts.css";
+
+body {
+    color: #252525;
+    font-family: 'Lato-Regular';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
