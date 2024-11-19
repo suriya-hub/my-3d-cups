@@ -3,8 +3,8 @@ import Cup from './Components/Cup/cup';
 import './App.css';
 
 function App() {
-  const [frontImage, setFrontImage] = useState('../public/assets/michael-dam.jpg');
-  const [backImage, setBackImage] = useState('../public/assets/michael-dam.jpg');
+  const [frontImage, setFrontImage] = useState('/assets/michael-dam.jpg');
+  const [backImage, setBackImage] = useState('/assets/michael-dam.jpg');
   const [hideFrontImage, setHideFrontImage] = useState(false);
   const [hideBackImage, setHideBackImage] = useState(false);
   const [outercolor, setOuterColor] = useState('#51c3d2');
