@@ -11,14 +11,14 @@ function App() {
   const [innercolor, setInnerColor] = useState('#ffffff');
 
 
-  const handleOuterColorChange = (event: any) => {
+  const handleOuterColorChange = (event) => {
     setOuterColor(event.target.value);
   };
-  const handleInnerColorChange = (event: any) => {
+  const handleInnerColorChange = (event) => {
     setInnerColor(event.target.value);
   };
 
-  const handleFrontImageUpload = (event: any) => {
+  const handleFrontImageUpload = (event) => {
     const file = event.target.files[0];
     if (file) {
       const imageUrl = URL.createObjectURL(file);
@@ -26,7 +26,7 @@ function App() {
     }
   };
 
-  const handleBackImageUpload = (event: any) => {
+  const handleBackImageUpload = (event) => {
     const file = event.target.files[0];
     if (file) {
       const imageUrl = URL.createObjectURL(file);
