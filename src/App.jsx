@@ -56,7 +56,7 @@ function App() {
                 type="color"
                 value={innercolor}
                 onChange={handleInnerColorChange}
-                style={{ padding: '10px', border: 'none', cursor: 'pointer' }}
+                style={{ padding: '10px', border: 'none', cursor: 'pointer', backgroundColor: innercolor }}
               />
             </div>
           </div>
