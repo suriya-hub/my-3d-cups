@@ -1,8 +1,42 @@
-@import "../src/globalFonts.css";
+@import "./globalFonts.css";
+
+:root {
+  --bg: #f4f5f7;
+  --surface: #ffffff;
+  --surface-muted: #f8f9fb;
+  --border: #e4e7ec;
+  --text: #1d2433;
+  --text-muted: #667085;
+  --accent: #2563eb;
+  --accent-soft: #e8efff;
+  --radius: 14px;
+  --shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 8px 24px rgba(16, 24, 40, 0.06);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
 
 body {
-    color: #252525;
-    font-family: 'Lato-Regular';
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Lato', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}

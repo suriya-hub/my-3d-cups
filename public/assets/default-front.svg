@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <g fill="none" stroke="#f3b61f" stroke-width="22" stroke-linecap="round">
+    <path d="M430 250c-30-40 30-70 0-115" />
+    <path d="M512 250c-30-40 30-70 0-115" />
+    <path d="M594 250c-30-40 30-70 0-115" />
+  </g>
+  <g fill="#f3b61f">
+    <path d="M362 300h300v70c0 95-67 160-150 160s-150-65-150-160z" />
+    <path d="M662 320h28c45 0 70 30 70 62s-25 62-70 62h-40l12-40h28c18 0 30-10 30-22s-12-22-30-22h-28z" />
+  </g>
+  <text x="512" y="680" text-anchor="middle" fill="#f4f1ea" font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="132" letter-spacing="6">RISE &amp;</text>
+  <text x="512" y="815" text-anchor="middle" fill="#f4f1ea" font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="132" letter-spacing="6">GRIND</text>
+  <rect x="332" y="860" width="360" height="8" rx="4" fill="#f3b61f" />
+  <text x="512" y="930" text-anchor="middle" fill="#f4f1ea" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="48" letter-spacing="4">fresh every morning</text>
+</svg>
